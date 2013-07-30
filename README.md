@@ -2,7 +2,7 @@
 
 어느 웹 개발자의 개인 스타일 맞춤형 OS X 개발환경 세팅. **ver. rkJun**
 
-[펭귄너구리](blog.doortts.com)님의 f글[^1]을 보고, 저도 개인적인 정리 차원에서 올려둡니다.
+[펭귄너구리](http://blog.doortts.com)님의 글[^1]을 보고, 저도 개인적인 정리 차원에서 올려둡니다.
 
 [^1]: 펭귄너구리님의 어떤 개발자의 맥환경 <https://github.com/doortts/env-of-mac>
 
