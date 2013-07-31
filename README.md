@@ -42,6 +42,15 @@ $```brew install node```
 .files, including ~/.osx — sensible hacker defaults for OS X
 
 <https://github.com/mathiasbynens/dotfiles>
+
+기본적으론 dotfiles 를 사용하고,
+**.extra** 에 확장 또는 덮어쓸 명령을 추가한다.
+
+My Extra Style :  
+<https://github.com/rkJun/dotfiles/blob/master/.extra>
+
+
+
 ***
 ## Homebrew-cask 설치
 
@@ -119,8 +128,14 @@ Oracle 사이트에서 다운로드
  
 * Eclipse IDE for Java EE Developers <http://www.eclipse.org/downloads/>
 
-## git 버전제어....
+## git 최신 사용
 
+Xcode (Command Line Tools) 내장 git 이 아닌, brew install 한 git 을 사용하도록, /usr/local/bin 을 $PATH 보다 먼저 잡는다.
+
+```
+# path override setting for new git
+export PATH="/usr/local/bin:$PATH"
+```
 
 ## 가상머신 설치
 * VMWare Fusion
