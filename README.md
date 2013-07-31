@@ -152,6 +152,10 @@ Vmware Fusion 삭제 관련 링크 :
 
 [st]: http://sublimetext.com
 
+### NTFS 외장하드 사용하기
+
+[OS X 에서 NTFS 쓰기. FUSE for OS X, 그리고 NTFS-3G](http://rkjun.wordpress.com/2013/07/14/os-x-%EC%97%90%EC%84%9C-ntfs-%EC%93%B0%EA%B8%B0-fuse-for-os-x-%EA%B7%B8%EB%A6%AC%EA%B3%A0-ntfs-3g/)
+
 ### 추가폰트 적용
 서체관리자 실행후 폰트 파일 복사
 
