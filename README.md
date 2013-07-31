@@ -111,6 +111,14 @@ Oracle 사이트에서 다운로드
 [mnfavi]: http://cfile27.uf.tistory.com/original/206B013E4FE755FD15303C "macnews.tistory.com"
    
 
+## Java IDE 설치
+
+* Spring Tool Suite <http://www.springsource.org/sts>  
+
+또는
+ 
+* Eclipse IDE for Java EE Developers <http://www.eclipse.org/downloads/>
+
 ## git 버전제어....
 
 
@@ -129,6 +137,11 @@ Vmware Fusion 삭제 관련 링크 :
 
 [st]: http://sublimetext.com
 
+### 추가폰트 적용
+서체관리자 실행후 폰트 파일 복사
+
+* 나눔고딕코딩  
+   <http://dev.naver.com/projects/nanumfont>
 
  
 <!--
