@@ -15,6 +15,7 @@
 ## AppStore
 - Update
 - *iPhoto, iMovie*
+- *twitter*
 - *Xcode*
   - *Command Line Tools* (Xcode - Preferences - Downloads)
 
@@ -40,6 +41,11 @@ $```brew install node```
 
 #### mongodb
 $```brew install mongodb```
+
+### RVM 설치하기
+$``` \curl -L https://get.rvm.io | bash -s stable --rails --autolibs=enable```   
+출처 : <http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/>
+
 
 ***
 ## dotfiles 적용
@@ -73,8 +79,14 @@ $```brew cask install iterm2```
 #### Sublime Text 
 $```brew cask install sublime-text```
 
+#### Eclipse (Standard)
+$```brew cask install eclipse```
+
 #### XMind
 $```brew cask install xmind```
+
+#### firefox
+$```brew cask install firefox```
 
 #### 그외 
 $```brew cask install google-chrome-canary```
@@ -96,6 +108,10 @@ $```brew cask install caffeine```
 $```brew cask install alfred```
 
 $```brew cask install mou```
+
+$```brew cask install app-cleaner```
+
+$```brew cask install coconutbattery```
 
 ---
 ## JDK 설치
