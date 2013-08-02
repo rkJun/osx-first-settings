@@ -37,6 +37,10 @@ $```brew install git```
 
 #### node
 $```brew install node```
+
+#### mongodb
+$```brew install mongodb```
+
 ***
 ## dotfiles 적용
 .files, including ~/.osx — sensible hacker defaults for OS X
@@ -68,6 +72,9 @@ $```brew cask install iterm2```
 
 #### Sublime Text 
 $```brew cask install sublime-text```
+
+#### XMind
+$```brew cask install xmind```
 
 #### 그외 
 $```brew cask install google-chrome-canary```
