@@ -70,48 +70,70 @@ a friendly homebrew-style CLI workflow for the administration of Mac application
 
 ### Homebrew cask 로 application 설치
 
-#### 구글크롬
+#### Browser 
+
+##### - 구글크롬
 $```brew cask install google-chrome``` 
 
-#### iterm2
-$```brew cask install iterm2```
-
-#### Sublime Text 
-$```brew cask install sublime-text```
-
-#### Eclipse (Standard)
-$```brew cask install eclipse```
-
-#### XMind
-$```brew cask install xmind```
-
-#### firefox
-$```brew cask install firefox```
-
-#### 그외 
+###### - 구글크롬 canary 
 $```brew cask install google-chrome-canary```
 
+##### - firefox
+$```brew cask install firefox```
+
+
+#### Terminal
+
+##### - iterm2
+$```brew cask install iterm2```
+
+
+#### Editor
+
+##### - Sublime Text 
+$```brew cask install sublime-text```
+
+##### - MacVim
 $```brew cask install macvim```
 
-$```brew cask install transmission```
+##### - Mou : Markdown Editor
+$```brew cask install mou```
+
+#### IDE
+
+##### - Eclipse (Standard)
+$```brew cask install eclipse```
+
+
+#### Tools
+
+##### - XMind
+$```brew cask install xmind```
+
+##### - Caffeine
+$```brew cask install caffeine```
+
+#### 그외
+
+$```brew cask install alfred```
+
+$```brew cask install app-cleaner```
+
+$```brew cask install coconutbattery```
+
+$```brew cask install dropbox```
 
 $```brew cask install mplayerx```
+
+$```brew cask install spectacle```
+
+$```brew cask install transmission```
 
 $```brew cask install vlc```
 
 $```brew cask install virtualbox```
 
-$```brew cask install dropbox```
-
-$```brew cask install caffeine```
-
-$```brew cask install alfred```
-
-$```brew cask install mou```
-
-$```brew cask install app-cleaner```
-
-$```brew cask install coconutbattery```
+$```brew cask install f-lux``` : Better lighting for your Mac
 
 ---
 ## JDK 설치
@@ -178,6 +200,12 @@ Vmware Fusion 삭제 관련 링크 :
 ### NTFS 외장하드 사용하기
 
 [OS X 에서 NTFS 쓰기. FUSE for OS X, 그리고 NTFS-3G](http://rkjun.wordpress.com/2013/07/14/os-x-%EC%97%90%EC%84%9C-ntfs-%EC%93%B0%EA%B8%B0-fuse-for-os-x-%EA%B7%B8%EB%A6%AC%EA%B3%A0-ntfs-3g/)
+
+또는,
+
+[How to Write to NTFS External Disk Drives from OS X 10.8 Mountain Lion](http://crosstown.coolestguyplanettech.com/os-x/44-how-to-write-to-a-ntfs-drive-from-os-x)  
+brew 로 설치하기 (fuse4x, ntsfs-4g)
+
 
 ### 추가폰트 적용
 서체관리자 실행후 폰트 파일 복사
