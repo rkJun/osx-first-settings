@@ -20,7 +20,7 @@
   - *Command Line Tools* (Xcode - Preferences - Downloads)
 
 ## 구름입력기 설치
-세벌식 사용자 또는 vi 사용자에게 유리
+<http://gureum.org/> 세벌식 사용자 또는 vi 사용자에게 유리
 
 - esc 키 로마자전환 활성
 
