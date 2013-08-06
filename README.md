@@ -107,6 +107,9 @@ $```brew cask install eclipse```
 
 #### Tools
 
+##### - Xtra Finder
+$```brew cask install xtra-finder```
+
 ##### - XMind
 $```brew cask install xmind```
 
@@ -163,7 +166,9 @@ Oracle 사이트에서 다운로드
    <http://macnews.tistory.com/162> ![macnews icon][mnfavi]
 
 [mnfavi]: http://cfile27.uf.tistory.com/original/206B013E4FE755FD15303C "macnews.tistory.com"
-   
+
+3. 개발자에게 추천하는 OS X 훑어보기(QuickLook) 플러그인 6종 + α  
+   <http://macnews.tistory.com/830> ![macnews icon][mnfavi]
 
 ## Java IDE 설치
 
