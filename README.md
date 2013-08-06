@@ -2,9 +2,8 @@
 
 어느 웹 개발자의 개인 스타일 맞춤형 OS X 개발환경 세팅. **ver. rkJun**
 
-[펭귄너구리](http://blog.doortts.com)님의 글[^1]을 보고, 저도 개인적인 정리 차원에서 올려둡니다.
-
-[^1]: 펭귄너구리님의 어떤 개발자의 맥환경 <https://github.com/doortts/env-of-mac>
+[펭귄너구리](http://blog.doortts.com)님의 글(어떤 개발자의 맥환경 <https://github.com/doortts/env-of-mac>)
+을 보고, 저도 개인적인 정리 차원에서 올려둡니다.
 
 ## 시스템환경설정
 
@@ -234,95 +233,3 @@ brew 로 설치하기 (fuse4x, ntsfs-4g)
 
 * 나눔고딕코딩  
    <http://dev.naver.com/projects/nanumfont>
-
- 
-<!--
-> Right angle brackets &gt; are used for block quotes.
-> 
-~~Strikethrough~~
-
-```
-Fenced code blocks are like Stardard Markdown’s regular code
-blocks, except that they’re not indented and instead rely on
-a start and end fence lines to delimit the code block.
-```
-
-First Header | Second Header | Third Header
------------- | ------------- | ------------
-Content Cell | Content Cell  | Content Cell
-Content Cell | Content Cell  | Content Cell
-
-If you wish, you can add a leading and tailing pipe to each line of the table:
-
-| First Header | Second Header | Third Header |
-| ------------ | ------------- | ------------ |
-| Content Cell | Content Cell  | Content Cell |
-| Content Cell | Content Cell  | Content Cell |
-
-Specify alignement for each column by adding colons to separator lines:
-
-First Header | Second Header | Third Header
-:----------- | :-----------: | -----------:
-Left         | Center        | Right
-Left         | Center        | Right
--->
-
-<!--### Shortcuts
-
-#### View
-
-* Toggle live preview: Shift + Cmd + I
-* Toggle Words Counter: Shift + Cmd + W
-* Toggle Transparent: Shift + Cmd + T
-* Toggle Floating: Shift + Cmd + F
-* Left/Right = 1/1: Cmd + 0
-* Left/Right = 3/1: Cmd + +
-* Left/Right = 1/3: Cmd + -
-
-#### Actions
-
-* Copy HTML: Option + Cmd + C
-* Strong: Select text, Cmd + B
-* Emphasize: Select text, Cmd + I
-* Inline Code: Select text, Cmd + K
-* Strikethrough: Select text, Cmd + U
-* Link: Select text, Control + Shift + L
-* Image: Select text, Control + Shift + I
-* Select Word: Control + Option + W
-* Select Line: Shift + Cmd + L
-* Select All: Cmd + A
-* Deselect All: Cmd + D
-* Convert to Uppercase: Select text, Control + U
-* Convert to Lowercase: Select text, Control + Shift + U
-* Convert to Titlecase: Select text, Control + Option + U
-* Convert to List: Select lines, Control + L
-* Convert to Blockquote: Select lines, Control + Q
-* Convert to H1: Cmd + 1
-* Convert to H2: Cmd + 2
-* Convert to H3: Cmd + 3
-* Convert to H4: Cmd + 4
-* Convert to H5: Cmd + 5
-* Convert to H6: Cmd + 6
-* Convert Spaces to Tabs: Control + [
-* Convert Tabs to Spaces: Control + ]
-* Insert Current Date: Control + Shift + 1
-* Insert Current Time: Control + Shift + 2
-* Insert entity <: Control + Shift + ,
-* Insert entity >: Control + Shift + .
-* Insert entity &: Control + Shift + 7
-* Insert entity Space: Control + Shift + Space
-* Insert Scriptogr.am Header: Control + Shift + G
-* Shift Line Left: Select lines, Cmd + [
-* Shift Line Right: Select lines, Cmd + ]
-* New Line: Cmd + Return
-* Comment: Cmd + /
-* Hard Linebreak: Control + Return
-
- 
-#### Export
-
-* Export HTML: Option + Cmd + E
-* Export PDF:  Option + Cmd + P
-
- 
-For feedback, use the menu `Help` - `Send Feedback`-->
