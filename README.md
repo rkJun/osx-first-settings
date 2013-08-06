@@ -9,6 +9,8 @@
 
 - 핫코너
 - 키보드
+  - 키반복 최대한 빠르게, 반복지연시간 최대한 짧게 설정.
+  - 조합키 - Caps Lock 키를 ^Control 키로 변경
 - iCloud 설정 등
  
 ## AppStore
@@ -100,9 +102,8 @@ $```brew cask install mou```
 
 #### IDE
 
-##### - Eclipse (Standard)
-$```brew cask install eclipse```
-
+~~##### - Eclipse (Standard)~~  
+~~$```brew cask install eclipse-ide```~~
 
 #### Tools
 
