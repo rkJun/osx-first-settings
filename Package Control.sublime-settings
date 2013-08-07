@@ -2,6 +2,8 @@
 	"installed_packages":
 	[
 		"Case Conversion",
-		"SideBarEnhancements"
+		"Package Control",
+		"SideBarEnhancements",
+		"TrailingSpaces"
 	]
 }

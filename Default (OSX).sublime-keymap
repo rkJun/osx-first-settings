@@ -2,6 +2,8 @@
 	{ "keys": ["ctrl+alt+up"], "command": "select_lines", "args": {"forward": false} },
 	{ "keys": ["ctrl+alt+down"], "command": "select_lines", "args": {"forward": true} },
 	{ "keys": ["super+k", "super+s"], "command": "convert_to_snake"},
-	{ "keys": ["super+k", "super+c"], "command": "convert_to_camel"}
+	{ "keys": ["super+k", "super+c"], "command": "convert_to_camel"},
+	{ "keys": ["ctrl+shift+t"], "command": "delete_trailing_spaces" },
+	{ "keys": ["ctrl+shift+d"], "command": "toggle_trailing_spaces" }
 
 ]
