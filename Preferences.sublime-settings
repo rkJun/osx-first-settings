@@ -6,5 +6,9 @@
 	"font_size": 13.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		// "Vintage"
+	],
 	"show_full_path": true
 }
