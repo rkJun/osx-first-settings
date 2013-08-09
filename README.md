@@ -170,6 +170,9 @@ Oracle 사이트에서 다운로드
 3. 개발자에게 추천하는 OS X 훑어보기(QuickLook) 플러그인 6종 + α  
    <http://macnews.tistory.com/830> ![macnews icon][mnfavi]
 
+4. 한영/영한사전 기능 추가 경로 (OSX 10.8 이하만. OSX 10.9 부터는 기본 내장)  
+  /Users/`whoami`/Library/Dictionaries
+
 ## Java IDE 설치
 
 * Spring Tool Suite <http://www.springsource.org/sts>  
