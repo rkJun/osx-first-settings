@@ -2,6 +2,7 @@
 	"installed_packages":
 	[
 		"Case Conversion",
+		"ConvertToUTF8",
 		"Package Control",
 		"SideBarEnhancements",
 		"TrailingSpaces"
