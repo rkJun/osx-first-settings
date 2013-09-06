@@ -138,6 +138,14 @@ $```brew cask install virtualbox```
 
 $```brew cask install f-lux``` : Better lighting for your Mac
 
+#### Markdown editor
+
+Haroopad - http://pad.haroopress.com/page.html
+
+#### 압축해제 프로그램
+
+Bandizip X - http://www.bandisoft.co.kr/bandizip/x/
+
 ---
 ## JDK 설치
 
