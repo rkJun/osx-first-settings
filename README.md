@@ -18,33 +18,52 @@
 - *iPhoto, iMovie*
 - *twitter*
 - *Xcode*
-  - *Command Line Tools* (Xcode - Preferences - Downloads)
+  - *Command Line Tools*
+  ```SHELL
+  $ xcode-select --install
+  ```
 
 ## 구름입력기 설치
-<http://gureum.org/> 세벌식 사용자 또는 vi 사용자에게 유리
-
+<http://gureum.org/> 세벌식 사용자 또는 vi 사용자에게 유리  
 - esc 키 로마자전환 활성
 
 ***
 ## Homebrew 설치
 
-$```ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"```
+```SHELL
+$ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+... ...
+$ brew doctor
 
-$```brew doctor```
+``` 
+From [Homebrew 공식사이트 한글](http://brew.sh/index_ko.html)
 
 ### Homebrew 로 설치하기
 
 #### git
-$```brew install git```
+```SHELL
+$ brew install git
+```
+
+#### zsh
+```ZSH
+$ brew install zsh
+```
 
 #### node
-$```brew install node```
+```SHELL
+$ brew install node
+```
 
 #### mongodb
-$```brew install mongodb```
+```SHELL
+$ brew install mongodb
+```
 
 ### RVM 설치하기
-$``` \curl -L https://get.rvm.io | bash -s stable --rails --autolibs=enable```   
+```SHELL
+$ \curl -L https://get.rvm.io | bash -s stable --rails --autolibs=enable
+```   
 출처 : <http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/>
 
 
