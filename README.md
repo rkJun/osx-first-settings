@@ -1,16 +1,24 @@
 # OS X First Settings of My Style
 
-어느 웹 개발자의 개인 스타일 맞춤형 OS X 개발환경 세팅. **ver. rkJun**
+어느 웹 개발자의 개인 스타일 맞춤형 OS X 개발환경 세팅.  
+**```OS X 10.9 Mavericks``` 를 기준으로 작성했습니다.**
 
 [펭귄너구리](http://blog.doortts.com)님의 글(어떤 개발자의 맥환경 <https://github.com/doortts/env-of-mac>)
 을 보고, 저도 개인적인 정리 차원에서 올려둡니다.
 
+
 ## 시스템환경설정
 
 - 핫코너
+  - 좌상 - Mission Control
+  - 우상 - 알림센터
+  - 좌하 - 응용프로그램 윈도우
+  - 우하 - Dashboard
 - 키보드
-  - 키반복 최대한 빠르게, 반복지연시간 최대한 짧게 설정.
+  - 키반복 최대한 빠르게, 반복지연시간 최대한 짧게
+  - 모든 F1, F2 등의 키를 표준 기능 키로 사용 체크
   - 조합키 - Caps Lock 키를 ^Control 키로 변경
+  - 단축키탭 - 전체 키보드 접근 - 모든 컨트롤 선택
 - iCloud 설정 등
  
 ## AppStore
@@ -46,8 +54,17 @@ $ brew install git
 ```
 
 #### zsh
-```ZSH
+```SHELL
 $ brew install zsh
+```
+- ##### oh-my-zsh
+```SHELL
+$ curl -L http://install.ohmyz.sh | sh
+```
+
+#### tmux
+```SHELL
+$ brew install tmux
 ```
 
 #### node
@@ -55,10 +72,28 @@ $ brew install zsh
 $ brew install node
 ```
 
-#### mongodb
+#### tig
+Text-mode interface for git
+```SHELL
+$ brew install tig
+```
+
+#### jq 
+command-line JSON processor
 ```SHELL
 $ brew install mongodb
 ```
+
+#### peco
+Simplistic interactive filtering tool
+```SHELL
+$ brew install peco
+```
+
+#### Etc
+```tree```, ```watch```, ```hub``` ...
+
+
 
 ### RVM 설치하기
 ```SHELL
@@ -68,7 +103,7 @@ $ \curl -L https://get.rvm.io | bash -s stable --rails --autolibs=enable
 
 
 ***
-## dotfiles 적용
+## dotfiles 적용 (for bash)
 .files, including ~/.osx — sensible hacker defaults for OS X
 
 <https://github.com/mathiasbynens/dotfiles>
@@ -78,6 +113,9 @@ $ \curl -L https://get.rvm.io | bash -s stable --rails --autolibs=enable
 
 My Extra Style :  
 <https://github.com/rkJun/dotfiles/blob/master/.extra>
+
+## dotfiles 적용 (for zsh)
+준비중
 
 
 
@@ -92,42 +130,37 @@ a friendly homebrew-style CLI workflow for the administration of Mac application
 
 #### Browser 
 
-##### - 구글크롬
+- ##### 구글크롬
 $```brew cask install google-chrome``` 
 
-###### - 구글크롬 canary 
-$```brew cask install google-chrome-canary```
-
-##### - firefox
+- ##### firefox
 $```brew cask install firefox```
 
 
 #### Terminal
 
-##### - iterm2
+- ##### iterm2
 $```brew cask install iterm2```
 
 
 #### Editor
 
-##### - Sublime Text 
+- ##### Sublime Text 
 $```brew cask install sublime-text```
 
-##### - MacVim
+- ##### MacVim
 $```brew cask install macvim```
 
-##### - Mou : Markdown Editor
-$```brew cask install mou```
+- ##### Haroopad
+$```brew cask install haroopad```
 
+ 
 #### IDE
 
 ~~##### - Eclipse (Standard)~~  
 ~~$```brew cask install eclipse-ide```~~
 
 #### Tools
-
-##### - Xtra Finder
-$```brew cask install xtra-finder```
 
 ##### - XMind
 $```brew cask install xmind```
@@ -147,7 +180,7 @@ $```brew cask install dropbox```
 
 $```brew cask install mplayerx```
 
-$```brew cask install spectacle```
+~~$```brew cask install spectacle```~~
 
 $```brew cask install transmission```
 
@@ -157,9 +190,12 @@ $```brew cask install virtualbox```
 
 $```brew cask install f-lux``` : Better lighting for your Mac
 
-#### Markdown editor
+$```brew cask install bettertouchtool``
 
-Haroopad - http://pad.haroopress.com/page.html
+$```brew cask install diffmerge``
+
+$```brew cask instlal cakebrew```
+
 
 #### 압축해제 프로그램
 
@@ -260,7 +296,10 @@ brew 로 설치하기 (fuse4x, ntsfs-4g)
 
 
 ### 추가폰트 적용
-서체관리자 실행후 폰트 파일 복사
-
+서체관리자
 * 나눔고딕코딩  
    <http://dev.naver.com/projects/nanumfont>
+* 나눔바른고딕
+* 주아체
+* 한나체
+* Monaco for Powerline
