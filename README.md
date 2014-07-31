@@ -48,23 +48,15 @@ From [Homebrew 공식사이트 한글](http://brew.sh/index_ko.html)
 
 ### Homebrew 로 설치하기
 
-#### git
+#### git, zsh, tmux
 ```SHELL
 $ brew install git
-```
-
-#### zsh
-```SHELL
 $ brew install zsh
+$ brew install tmux
 ```
-- ##### oh-my-zsh
+##### oh-my-zsh
 ```SHELL
 $ curl -L http://install.ohmyz.sh | sh
-```
-
-#### tmux
-```SHELL
-$ brew install tmux
 ```
 
 #### node
@@ -267,21 +259,14 @@ Vmware Fusion 삭제 관련 링크 :
 
 #### Package Control 설치
 
-* Sublime Package Control 설치 -Sublime Text 2 에서
-View - Show console (단축키 ^+`) 에서 아래 명령 실행
+* https://sublime.wbond.net/installation
 
-   참조 : 생활코딩 <http://opentutorials.org/module/406/3602>  
-   참조 : wbond.net <http://wbond.net/sublime_packages/package_control/installation>
+#### 환경설정파일
 
-
-```
-import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')
-```
-
-* Sublime Package Control 설치 - Sublime Text 3 에서
-
-   참조 wbond.net <http://wbond.net/sublime_packages/package_control/installation#ST3>
-
+* [전체](https://gist.github.com/rkJun/5733996)
+   - [Default (OSX).sublime-keymap](https://gist.github.com/rkJun/5733996#file-default-osx-sublime-keymap)
+   - [Package Control.sublime-settings](https://gist.github.com/rkJun/5733996#file-package-control-sublime-settings)
+   - [Preferences.sublime-settings](https://gist.github.com/rkJun/5733996#file-preferences-sublime-settings)
 
 [st]: http://sublimetext.com
 
