@@ -34,6 +34,7 @@
 ## 구름입력기 설치
 <http://gureum.org/> 세벌식 사용자 또는 vi 사용자에게 유리  
 - esc 키 로마자전환 활성
+- 한자 및 이모티콘 입력에 편리함 (opt+enter)
 
 ***
 ## Homebrew 설치
@@ -48,44 +49,24 @@ From [Homebrew 공식사이트 한글](http://brew.sh/index_ko.html)
 
 ### Homebrew 로 설치하기
 
-#### git, zsh, tmux
+#### git, zsh, tmux, node and more...
 ```SHELL
 $ brew install git
 $ brew install zsh
 $ brew install tmux
+$ brew install node
+$ brew install tig		// Text-mode interface for git
+$ brew install peco		// Simplistic interactive filtering tool
+$ brew install tree
+$ brew install watch
+$ brew install hub
+$ brew install jq
 ```
+
 ##### oh-my-zsh
 ```SHELL
 $ curl -L http://install.ohmyz.sh | sh
 ```
-
-#### node
-```SHELL
-$ brew install node
-```
-
-#### tig
-Text-mode interface for git
-```SHELL
-$ brew install tig
-```
-
-#### jq 
-command-line JSON processor
-```SHELL
-$ brew install mongodb
-```
-
-#### peco
-Simplistic interactive filtering tool
-```SHELL
-$ brew install peco
-```
-
-#### Etc
-```tree```, ```watch```, ```hub``` ...
-
-
 
 ### RVM 설치하기
 ```SHELL
@@ -122,72 +103,52 @@ a friendly homebrew-style CLI workflow for the administration of Mac application
 
 #### Browser 
 
-- ##### 구글크롬
-$```brew cask install google-chrome``` 
-
-- ##### firefox
-$```brew cask install firefox```
-
+```SHELL
+$ brew cask install google-chrome
+$ brew cask install firefox
+$ brew cask install chromium
+``` 
 
 #### Terminal
 
-- ##### iterm2
-$```brew cask install iterm2```
-
+```SHELL
+$ brew cask install iterm2
+```
 
 #### Editor
 
-- ##### Sublime Text 
-$```brew cask install sublime-text```
-
-- ##### MacVim
-$```brew cask install macvim```
-
-- ##### Haroopad
-$```brew cask install haroopad```
-
- 
-#### IDE
-
-~~##### - Eclipse (Standard)~~  
-~~$```brew cask install eclipse-ide```~~
+```SHELL
+$ brew cask install sublime-text
+$ brew cask install sublime-text3
+$ brew cask install macvim
+$ brew cask install haroopad
+$ brew cask install atom
+```
 
 #### Tools
 
-##### - XMind
-$```brew cask install xmind```
+```SHELL
+$ brew cask install xmind
+$ brew cask install caffeine
+$ brew cask install alfred
+$ brew cask install bettertouchtool
+$ brew cask install diffmerge
+$ brew cask install cakebrew
+$ brew cask install coconutbattery
+$ brew cask install dropbox
+$ brew cask install transmission
+$ brew cask install virtualbox
+$ brew cask install f-lux		// Better lighting for your Mac
 
-##### - Caffeine
-$```brew cask install caffeine```
+```
 
-#### 그외
+#### multimedia
 
-$```brew cask install alfred```
-
-$```brew cask install app-cleaner```
-
-$```brew cask install coconutbattery```
-
-$```brew cask install dropbox```
-
-$```brew cask install mplayerx```
-
-~~$```brew cask install spectacle```~~
-
-$```brew cask install transmission```
-
-$```brew cask install vlc```
-
-$```brew cask install virtualbox```
-
-$```brew cask install f-lux``` : Better lighting for your Mac
-
-$```brew cask install bettertouchtool``
-
-$```brew cask install diffmerge``
-
-$```brew cask instlal cakebrew```
-
+```SHELL
+$ brew cask install mplayerx
+$ brew cask install simple-comic
+$ brew cask install vlc
+```
 
 #### 압축해제 프로그램
 
@@ -225,8 +186,6 @@ Oracle 사이트에서 다운로드
 3. 개발자에게 추천하는 OS X 훑어보기(QuickLook) 플러그인 6종 + α  
    <http://macnews.tistory.com/830> ![macnews icon][mnfavi]
 
-4. 한영/영한사전 기능 추가 경로 (OSX 10.8 이하만. OSX 10.9 부터는 기본 내장)  
-  /Users/`whoami`/Library/Dictionaries
 
 ## Java IDE 설치
 
