@@ -1,7 +1,7 @@
 # OS X First Settings of My Style
 
 어느 웹 개발자의 개인 스타일 맞춤형 OS X 개발환경 세팅.  
-**```OS X 10.10 Yosemite`` 를 기준으로 작성했습니다.**
+**```OS X 10.10 Yosemite``` 를 기준으로 작성했습니다.**
 
 [펭귄너구리](http://blog.doortts.com)님의 글(어떤 개발자의 맥환경 <https://github.com/doortts/env-of-mac>)
 을 보고, 저도 개인적인 정리 차원에서 올려둡니다.
@@ -19,7 +19,7 @@
   - 확대체크 (2/3 범위선택)
 
 - 보안 및 개인 정보
-  - 다음에서 다운로드한 App - 모든 곳 체크 
+  - 다음에서 다운로드한 App - 모든 곳 체크
 
 - 핫코너
   - 좌측 상단 - Mission Control
@@ -31,11 +31,17 @@
   - 키반복 최대한 빠르게, 반복지연시간 최대한 짧게
   - 모든 F1, F2 등의 키를 표준 기능 키로 사용 체크
   - 조합키 - Caps Lock 키를 ^Control 키로 변경
-  - 단축키탭 - 전체 키보드 접근 - 모든 컨트롤 선택
+  - 단축키탭
+    - 손쉬운 사용 - 색상반전 체크
+    - 전체 키보드 접근 - 모든 컨트롤 선택
 
+- 손쉬운 사용
+  - 확대/축소 - 확대/축소하려면 스크롤 동작을 다음 조합키와 함께 사용 체크
  
 ## AppStore
 - Update
+- *Memoery Clean*
+- *Airmail* ($1.99)
 - *Xcode*
   - *Command Line Tools*
   ```SHELL
