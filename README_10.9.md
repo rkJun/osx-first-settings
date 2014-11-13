@@ -1,47 +1,30 @@
 # OS X First Settings of My Style
 
 어느 웹 개발자의 개인 스타일 맞춤형 OS X 개발환경 세팅.  
-**```OS X 10.10 Yosemite``` 를 기준으로 작성했습니다.**
+**```OS X 10.9 Mavericks``` 를 기준으로 작성했습니다.**
 
 [펭귄너구리](http://blog.doortts.com)님의 글(어떤 개발자의 맥환경 <https://github.com/doortts/env-of-mac>)
 을 보고, 저도 개인적인 정리 차원에서 올려둡니다.
 
 
-## 시스템 환경설정
-
-- 트랙패드
-  - 탭하여클릭하기 체크
-  - 세손가락으로 드래그하기 체크
-  - App Expose 체크
-  - (트랙패드의 모든 항목 체크)
-
-- Dock
-  - 확대체크 (2/3 범위선택)
-
-- 보안 및 개인 정보
-  - 다음에서 다운로드한 App - 모든 곳 체크
+## 시스템환경설정
 
 - 핫코너
-  - 좌측 상단 - Mission Control
-  - 우측 상단 - 알림센터
-  - 좌측 하단 - 응용프로그램 윈도우
-  - 우측 하단 - Launchpad
-
+  - 좌상 - Mission Control
+  - 우상 - 알림센터
+  - 좌하 - 응용프로그램 윈도우
+  - 우하 - Dashboard
 - 키보드
   - 키반복 최대한 빠르게, 반복지연시간 최대한 짧게
   - 모든 F1, F2 등의 키를 표준 기능 키로 사용 체크
   - 조합키 - Caps Lock 키를 ^Control 키로 변경
-  - 단축키탭
-    - 손쉬운 사용 - 색상반전 체크
-    - 전체 키보드 접근 - 모든 컨트롤 선택
-
-- 손쉬운 사용
-  - 확대/축소 - 확대/축소하려면 스크롤 동작을 다음 조합키와 함께 사용 체크
+  - 단축키탭 - 전체 키보드 접근 - 모든 컨트롤 선택
+- iCloud 설정 등
  
 ## AppStore
 - Update
-- *Memoery Clean*
-- *Airmail* ($1.99)
+- *iPhoto, iMovie*
+- *twitter*
 - *Xcode*
   - *Command Line Tools*
   ```SHELL
@@ -55,19 +38,16 @@
 
 ***
 ## Homebrew 설치
-- http://brew.sh 설치 명령어 참조
+
+```SHELL
+$ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+... ...
+$ brew doctor
+
+``` 
+From [Homebrew 공식사이트 한글](http://brew.sh/index_ko.html)
 
 ### Homebrew 로 설치하기
-
-#### brew cask 설치 (http://caskroom.io)
-```SHELL
-$ brew install caskroom/cask/brew-cask
-```
-application beta판도 cask로 설치하고 싶으면 아래 명령 추가 
-```SHELL
-$ brew tap caskroom/versions
-```
-
 
 #### git, zsh, tmux, node and more...
 ```SHELL
@@ -88,24 +68,55 @@ $ brew install jq
 $ curl -L http://install.ohmyz.sh | sh
 ```
 
-## dotfiles 적용 (for zsh)
+### RVM 설치하기
+```SHELL
+$ \curl -L https://get.rvm.io | bash -s stable --rails --autolibs=enable
+```   
+출처 : <http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/>
 
+
+***
+## dotfiles 적용 (for bash)
+.files, including ~/.osx — sensible hacker defaults for OS X
+
+<https://github.com/mathiasbynens/dotfiles>
+
+기본적으론 dotfiles 를 사용하고,
+**.extra** 에 확장 또는 덮어쓸 명령을 추가한다.
+
+My Extra Style :  
+<https://github.com/rkJun/dotfiles/blob/master/.extra>
+
+## dotfiles 적용 (for zsh)
+준비중
+
+
+
+***
+## Homebrew-cask 설치
+
+a friendly homebrew-style CLI workflow for the administration of Mac applications distributed as binaries
+
+<https://github.com/phinze/homebrew-cask>
 
 ### Homebrew cask 로 application 설치
 
+#### Browser 
+
+```SHELL
+$ brew cask install google-chrome
+$ brew cask install firefox
+$ brew cask install chromium
+``` 
+
 #### Terminal
+
 ```SHELL
 $ brew cask install iterm2
 ```
 
-#### Browser 
-```SHELL
-$ brew cask install chromium
-$ brew cask install google-chrome
-$ brew cask install firefox
-``` 
-
 #### Editor
+
 ```SHELL
 $ brew cask install sublime-text
 $ brew cask install sublime-text3
@@ -146,14 +157,20 @@ Bandizip X - http://www.bandisoft.co.kr/bandizip/x/
 ---
 ## JDK 설치
 
-### JDK8 설치
+### JDK6 설치
 
-1. 터미널에서 ```java``` 또는 $```javac``` 입력후,
-2. 추가정보 버튼 클릭. (Oracle JDK download 사이트로 포워딩)
+$```java``` 또는 $```javac```
+
+### JDK7 설치
+
+Oracle 사이트에서 다운로드  
+<http://www.oracle.com/technetwork/java/javase/downloads/index.html>
+
+ oracle JDK7 설치경로 :  
+ _/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home_
 
 
-***
-<!--
+===
 ## 유용한 팁
 1. 모두 표시 (CMD+OPT+SHIFT+H) 단축키 추가 및 Dock Icon (숨김시) 투명 적용  
    <http://macnews.tistory.com/1054>
@@ -169,13 +186,24 @@ Bandizip X - http://www.bandisoft.co.kr/bandizip/x/
 3. 개발자에게 추천하는 OS X 훑어보기(QuickLook) 플러그인 6종 + α  
    <http://macnews.tistory.com/830> ![macnews icon][mnfavi]
 
--->
 
 ## Java IDE 설치
- 
-* Eclipse IDE [Download](<http://www.eclipse.org/downloads/>)
 
-<!--
+* Spring Tool Suite <http://www.springsource.org/sts>  
+
+또는
+ 
+* Eclipse IDE for Java EE Developers <http://www.eclipse.org/downloads/>
+
+## git 최신 사용
+
+Xcode (Command Line Tools) 내장 git 이 아닌, brew install 한 git 을 사용하도록, /usr/local/bin 을 $PATH 보다 먼저 잡는다.
+
+```
+# path override setting for new git
+export PATH="/usr/local/bin:$PATH"
+```
+
 ## 가상머신 설치
 * VMWare Fusion
 * Parallels 
@@ -219,4 +247,3 @@ brew 로 설치하기 (fuse4x, ntsfs-4g)
 * 주아체
 * 한나체
 * Monaco for Powerline
--->
