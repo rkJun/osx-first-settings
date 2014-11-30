@@ -58,7 +58,7 @@
 - *Memoery Clean*
 - *iPhoto, Pages, Numbers, Keynote.*
 - *wunder list* (to-do app)
-- *Airmail* (mail client $1.99)
+- *Airmail* (mail client $1.99) : 차기 버전 나왔으나 구매 고민중..
 - *Xcode*
   - *Command Line Tools*
   ```SHELL
@@ -148,6 +148,7 @@ $ brew cask install coconutbattery
 $ brew cask install diffmerge
 $ brew cask install dropbox
 $ brew cask install transmission
+$ brew cask install vagrant
 ```
 ##### brew cask install alfred 설치후, 
 
@@ -163,6 +164,13 @@ $ brew cask install mplayerx
 $ brew cask install simple-comic
 $ brew cask install vlc
 ```
+
+#### 협업 Tools
+```SHELL
+$ brew cask install hipchat
+$ brew cask install slack
+```
+
 
 ## 가상머신 설치
 - VirtualBox [Download](https://www.virtualbox.org/wiki/Downloads)
