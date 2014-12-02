@@ -227,7 +227,7 @@ $ defaults write com.apple.dock showhidden -bool YES && killall Dock
 
 [st]: http://sublimetext.com
 
-+ cobalt2 theme 추가 
++ [cobalt2 theme](https://github.com/wesbos/cobalt2) 추가 
 
 <!--
 ### 추가폰트 적용
