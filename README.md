@@ -173,6 +173,7 @@ $ brew cask install slack
 #### JAVA IDE
 ```SHELL
 $ brew cask install intellij-idea-eap   // IntelliJ IDEA Early Access Program (EAP)
+```
 
 ## 가상머신 설치
 - VirtualBox [Download](https://www.virtualbox.org/wiki/Downloads)
