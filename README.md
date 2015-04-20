@@ -3,8 +3,7 @@
 어느 웹 개발자의 개인 스타일 맞춤형 OS X 개발환경 세팅.  
 **```OS X 10.10 Yosemite``` 를 기준으로 작성했습니다.**
 
-[펭귄너구리](http://blog.doortts.com)님의 글(어떤 개발자의 맥환경 <https://github.com/doortts/env-of-mac>)
-을 보고, 저도 개인적인 정리 차원에서 올려둡니다.
+[펭귄너구리](http://blog.doortts.com)님의 글(어떤 개발자의 맥환경 <https://github.com/doortts/env-of-mac>) 을 보고, 저도 개인적인 정리 차원에서 올려둡니다.
 
 
 ## 시스템 환경설정
@@ -127,7 +126,7 @@ $ brew cask install iterm2
 #### Browser 
 ```SHELL
 $ brew cask install chromium
-$ brew cask install firefox
+$ brew cask install firefox
 $ brew cask install firefoxdeveloperedition
 ``` 
 
@@ -153,7 +152,7 @@ $ brew cask install vagrant
 ##### brew cask install alfred 설치후, 
 
 - alfred scope 에 Caskroom 포함
-  ```SHELL
+  ```SHELL
   brew cask alfred link
   ```
 
@@ -171,6 +170,9 @@ $ brew cask install hipchat
 $ brew cask install slack
 ```
 
+#### JAVA IDE
+```SHELL
+$ brew cask install intellij-idea-eap   // IntelliJ IDEA Early Access Program (EAP)
 
 ## 가상머신 설치
 - VirtualBox [Download](https://www.virtualbox.org/wiki/Downloads)
